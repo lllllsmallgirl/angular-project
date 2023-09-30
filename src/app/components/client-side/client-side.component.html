@@ -1,0 +1,94 @@
+<div class="header">
+    <!-- <button routerLink="/admin">Jump to admin-side</button> -->
+    <img src="../../../assets/uploads/swiper1.jpg" alt="">
+</div>
+<div class="introduction">
+    <div class="info_img">
+        <img src="../../../assets/uploads/detail.jpg" alt="">
+    </div>
+    <div class="info_msg">
+        <div class="info_title">
+            XiJing Hospital
+        </div>
+        <div class="info_content">
+            Xijing Hospital is located in the beautiful ancient capital of Xi'an, and is the first affiliated hospital
+            of the Fourth Military Medical University. The hospital always adheres to the "mission culture" of
+            practicing its mission and saving lives and injuries, the "innovative culture" of being brave to compete and
+            constantly surpass, the "boutique culture" of striving for excellence, the "sunshine culture" of fair
+            competition and harmonious development, and is determined to forge ahead and innovate. It has successively
+            won the National Top 100 Hospitals, National People's Rest assured Demonstration Hospital Honored as a
+            national model unit for supporting the government and loving the people, an advanced division and brigade
+            unit in the rear, and an advanced party committee in the rear. In the national hospital comprehensive
+            ranking released by authoritative domestic departments, the hospital's comprehensive strength ranks among
+            the top five in the country, and the hospital name is recognized as a well-known trademark in China by the
+            State Administration for Industry and Commerce.
+        </div>
+    </div>
+</div>
+<div class="detail">
+    <div class="detail-item">
+        <div class="item-img">
+            <img src="../../../assets/img/service.png" alt="">
+        </div>
+        <div class="item-txt">
+            <h3>Service</h3>
+            <p>Xijing Hospital has a comprehensive medical service system, professional medical staff, and advanced
+                medical equipment, which can ensure that patients receive high-quality treatment and nursing services.
+            </p>
+        </div>
+    </div>
+    <div class="detail-item">
+        <div class="item-img">
+            <img src="../../../assets/img/health.png" alt="">
+        </div>
+        <div class="item-txt">
+            <h3>Health Promotion</h3>
+            <p>Xijing Hospital will continue to uphold the health concept of serving the military and civilians, and
+                carry out more forms of innovative science popularization activities around health issues of general
+                concern to the public, to protect the health of the people.</p>
+        </div>
+    </div>
+    <div class="detail-item">
+        <div class="item-img">
+            <img src="../../../assets/img/address.png" alt="">
+        </div>
+        <div class="item-txt">
+            <h3>Address</h3>
+            <p>No. 127 Changle West Road, Xincheng District, Xi'an City </p>
+        </div>
+    </div>
+    <div class="detail-item">
+        <div class="item-img">
+            <img src="../../../assets/img/phone.png" alt="">
+        </div>
+        <div class="item-txt">
+            <h3>Emergency hotline</h3>
+            <p>029-84775539</p>
+        </div>
+    </div>
+</div>
+<div class="list">
+    <div class="title">
+        Doctor List
+    </div>
+    <div class="layout">
+        <div class="card" *ngFor="let item of list">
+            <div class="left">
+                <div class="name">{{item.NAME}}</div>
+                <div class="text">Doctor ID: {{item.DOCTOR_ID}}</div>
+                <div class="text"> Medical Degree: {{item.MEDICALDEGREE}}</div>
+                <div class="text">Qualification: {{item.QUALIFICATION}}</div>
+                <div class="text">Specialty: {{item.SPECIALTY_NAME}}</div>
+            </div>
+            <div class="right">
+                <img src="../../../assets/img/attr.jpg" alt="">
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="copyright">
+        @ 2023-09-10 copyright by <span>Alyssa</span>
+    </div>
+</div>
